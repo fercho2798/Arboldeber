@@ -8,20 +8,20 @@ namespace AppApp
         static void Main(string[] args)
         {
             var raiz = new Nodo("*",
-               new Nodo("0",
-                   new Nodo("00",
-                       new Nodo("000"),
-                       new Nodo("001")),
-                   new Nodo("01",
-                       new Nodo("010"),
-                       new Nodo("011"))),
                new Nodo("1",
                    new Nodo("10",
                        new Nodo("100"),
                        new Nodo("101")),
                    new Nodo("11",
                        new Nodo("110"),
-                       new Nodo("111"))));
+                       new Nodo("111"))),
+               new Nodo("2",
+                   new Nodo("21",
+                       new Nodo("200"),
+                       new Nodo("201")),
+                   new Nodo("21",
+                       new Nodo("210"),
+                       new Nodo("211"))));
 
 
             Administrador admin = new Administrador();

@@ -20,7 +20,7 @@ namespace Arboll.Test
             var admin = new Administrador();
             var resultadoEsperado = 8;
 
-            var resultado = admin.SumarArbol(arbolOperaciones);
+            var resultado = admin.Sumar(arbolOperaciones);
 
             Assert.AreEqual(resultadoEsperado, resultado);
         }
